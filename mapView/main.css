@@ -1,0 +1,104 @@
+#mapID { width: 1200px; height: 800px; background-color: #333;}
+
+.legendSVG {
+    height:170px;
+    line-height: 19px;
+    color: #555;
+    padding: 0px 0px;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    display: block;
+}
+
+#stackedWidget{
+    position: absolute;
+    left: 1220px;
+    top:430px;
+    display: block;
+}
+
+#timeSeriesValueOption{
+    position: relative;
+    left: 5px;
+    top:5px;
+    display: block;
+}
+
+
+#timeSeriesSelectionLabel{
+    position: relative;
+    left: 95px;
+    top: -12px;
+    display: block;
+}
+
+#timeSeriesDiv{
+    position: absolute;
+    left: 1220px;
+    top:30px;
+    display: block;
+}
+
+.controls{
+    line-height: 19px;
+    color: #555;
+    padding: 0px 0px;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.layersControl{
+    line-height: 30px;
+    color: #555;
+    padding: 0px 0px;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: url(../resources/layers.png);
+    display: block;
+}
+
+.layersControl-expanded .layersList {
+    display: block;
+    position: relative;
+}
+
+.layersControl .layersList{
+    display: none;
+}
+
+      #placeIDTextLabel{
+      position: relative;
+      left: 5px;
+      top:5px;
+      display: block;
+      }
+
+      #placeIDTextInput{
+      position: relative;
+      left: 70px;
+      top:-15px;
+      display: block;
+      }
+
+      #placeIDQueryButton{
+      position: relative;
+      left: 580px;
+      top:-35px;
+      display: block;
+      }
+
+      #placeIDLabel{
+      position: relative;
+      left: 810px;
+      top:-350px;
+      display: block;
+      }
